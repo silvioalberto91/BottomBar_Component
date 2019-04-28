@@ -1,7 +1,7 @@
 import {Injectable, Input, OnInit} from '@angular/core';
 import {NavTab} from "./bottom-nav-item/nav-tab";
-import {Subject} from "rxjs/Subject";
-import {BehaviorSubject} from "rxjs/BehaviorSubject";
+import {Subject} from "rxjs";
+import {BehaviorSubject} from "rxjs";
 
 
 @Injectable()
